@@ -1,7 +1,9 @@
-HOME          = /work/04149/tg834482/stampede2/solver/intel17
+#HOME          = /work/04149/tg834482/stampede2/solver/intel17
+HOME          = /work/06414/tg857131/
 PARMETIS      = $(HOME)/parmetis-4.0.3
 
-EVSL_DIR      = $(HOME)/pEVSL_cH
+#EVSL_DIR      = $(HOME)/pEVSL_cH
+EVSL_DIR      = $(HOME)/pEVSL
 LIBEVSL       = -L$(EVSL_DIR) -lpevsl  
 iterobj       = $(EVSL_DIR)/EXTERNAL/ITERSOL/chebiter.o
 

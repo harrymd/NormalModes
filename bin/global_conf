@@ -1,19 +1,8 @@
-# JOB: normal modes modelling:
-# 1 without gravity
-# 2 with reference gravity
-JOB         = 2
-#basename    = CONST_1L_3k.1
-basename    = prem_3L_3k.1
-#Pudue server
-#inputdir   = /scratch/04149/tg834482/trueG/input/CONST3k/
-#outputdir  = /scratch/04149/tg834482/trueG/output/CONST3k/ 
-inputdir   = /scratch/04149/tg834482/trueG/input/PREM3k/
-outputdir  = /scratch/04149/tg834482/trueG/output/PREM3k/ 
-
-
-lowfreq      = 0.1 # mHz 
-upfreq       = 1.0 # mHz
-pOrder       = 2   # order of polynomial basis (1 or 2)
-
-
-
+JOB = 1
+CGMethod = .TRUE.
+lowfreq = 0.10
+upfreq = 1.00
+pOrder = 1
+inputdir = /scratch/06414/tg857131/PlanetaryModels/output/LLSVP/prem_0439.4_2.00_1/
+outputdir = /scratch/06414/tg857131/NormalModes/output/prem_0439.4_2.00_1_00.10_01.00_1/
+basename = mod.1
